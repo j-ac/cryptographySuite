@@ -1,0 +1,23 @@
+Enigma Machine Tests:
+    EnigmaMachine():
+    Ensure the user's requested number of rotors equals the actual
+    Ensure all rotor types match the user's desired rotor type
+    Ensure that the rotors that are generated use the correct seed.
+
+    CreateLinkedListOfRotors():
+        Ensure the first rotor has null as its previous
+        Ensure the last rotor has null as its next
+        Ensure all rotors have the first rotor assigned to their firstRotor attribute.
+
+    PerformCypher()
+        ensure single character messages can be encrypted
+        ensure longer messages can be encrypted
+        ensure messages with no spaces can be decrypted
+        ensure messages with spaces can be decrypted
+
+Rotor Tests:
+    Rotor()
+
+
+
+
